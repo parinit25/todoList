@@ -1,7 +1,8 @@
 import { configureStore } from "@reduxjs/toolkit";
-import todoList from "../reducer/todoSlice";
+import mailSlice from "./mailSlice";
+import userSlice from "./userSlice";
 
 const store = configureStore({
-  reducer: { todo: todoList.reducer },
+  reducer: { user: userSlice.reducer, mail: mailSlice.reducer },
 });
 export default store;

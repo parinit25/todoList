@@ -1,0 +1,24 @@
+.emailbody {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgb(216, 216, 216);
+  padding: 0px, 10px;
+  height: 40px;
+}
+.emailbody .emailbody__left {
+  display: flex;
+  align-items: center;
+  min-width: 300px;
+  flex: 20%;
+}
+.emailbody .emailbody__middle {
+  display: flex;
+  align-items: center;
+  flex: 50%;
+}
+.emailbody .emailbody__right {
+    display: flex;
+    align-items: center;
+    flex: 30%;
+  }
+  
